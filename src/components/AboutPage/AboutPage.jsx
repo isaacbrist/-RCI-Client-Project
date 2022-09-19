@@ -16,7 +16,7 @@ export default function AboutPage() {
                     I. About RCI
                 </Typography>
                 <Typography
-                    variant="p"
+                    variant="p" 
                     sx={{
                         fontWeight: 500,
                         fontSize: 20,

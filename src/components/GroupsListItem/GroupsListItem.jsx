@@ -21,7 +21,7 @@ export default function GroupsListItem({ group }) {
         dispatch({ type: 'FETCH_GROUP_DETAILS', payload: id });
         history.push('/group-details');
     };
-
+ 
     return (
         <>
             <Box
