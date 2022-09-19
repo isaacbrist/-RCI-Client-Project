@@ -11,7 +11,7 @@ export default function AboutPage() {
                         textAlign: 'left',
                         fontWeight: 'bold',
                         color: 'var(--true-orange)',
-                    }}
+                    }} 
                 >
                     I. About RCI
                 </Typography>
