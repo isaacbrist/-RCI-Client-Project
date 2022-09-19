@@ -1,5 +1,5 @@
 
-# Rochester Community Inititive
+# Rochester Community Initiative
 
 Project Duration: 2 week sprint
 
