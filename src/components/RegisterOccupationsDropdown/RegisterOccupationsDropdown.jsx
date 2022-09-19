@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
-
+ 
 function RegisterOccupationsDropdown() {
     const theme = useTheme();
     const dispatch = useDispatch();

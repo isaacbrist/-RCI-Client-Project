@@ -19,7 +19,7 @@ function* fetchGroups(action) {
 function* fetchGroupDetails(action) {
   try {
     const detailsResponse = yield axios.get(`/api/groups/${action.payload}`);
-    console.log(
+    console.log( 
       'In fetchGroupDetails, this is detailsResponse.data',
       detailsResponse.data
     );

@@ -11,7 +11,7 @@ export default function LogOutButton(props) {
         dispatch({ type: 'LOGOUT' });
         history.push(`/`);
     };
-
+ 
     return (
         <Button
             style={{ textDecoration: 'none', color: 'inherit' }}

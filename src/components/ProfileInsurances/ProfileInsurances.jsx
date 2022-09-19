@@ -7,6 +7,6 @@ export default function ProfileInsurances() {
             {profileInsurances.map((insurance, i) => {
                 return <li key={i}>{insurance.insurance}</li>;
             })}
-        </>
+        </> 
     );
 }

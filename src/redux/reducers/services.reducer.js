@@ -6,7 +6,7 @@ const servicesReducer = (state = [], action) => {
         return [];
       default:
         return state;
-    }
+    } 
   };
   
   

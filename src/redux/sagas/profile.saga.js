@@ -16,7 +16,7 @@ import { put, takeEvery, takeLatest } from 'redux-saga/effects';
 //     console.log('error in fetchProviderDetails', error);
 //   }
 // }
-
+ 
 //get all PROFILE of one provider by USER.ID (Action.payload is user id)
 function* fetchProviderProfile(action) {
     try {

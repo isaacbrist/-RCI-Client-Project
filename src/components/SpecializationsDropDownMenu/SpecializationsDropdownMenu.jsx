@@ -9,7 +9,7 @@ import Select from '@mui/material/Select';
 
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
-
+ 
 function SpecializationsDropdownMenu() {
     const dispatch = useDispatch();
     //state for the text box for the provider

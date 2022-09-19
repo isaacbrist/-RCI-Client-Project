@@ -6,7 +6,7 @@ import {
     Switch,
 } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-
+ 
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 import AboutPage from '../AboutPage/AboutPage';
 import GroupProfile from '../GroupProfile/GroupProfile';

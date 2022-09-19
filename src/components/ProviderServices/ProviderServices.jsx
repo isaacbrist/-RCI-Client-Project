@@ -8,7 +8,7 @@ function ProviderServices() {
   const services = useSelector((store) => store.providerServices);
 
   return (
-    <div>
+    <div> 
       {services.map((service) => {
         return <div key={service.id}>{service.service}</div>;
       })}

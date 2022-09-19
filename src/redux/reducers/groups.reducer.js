@@ -18,7 +18,7 @@ const groupNameReducer = (state = '', action) => {
 		default:
 			return state;
 	}
-};
+}; 
 
 const groupBioReducer = (state = '', action) => {
 	switch (action.type) {

@@ -6,7 +6,7 @@ const specializationsReducer = (state = [], action) => {
       return [];
     default:
       return state;
-  }
+  } 
 };
 
 

@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import Swal from 'sweetalert2';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-
+ 
 export default function DeleteProviderBtn() {
     const history = useHistory();
     const dispatch = useDispatch();

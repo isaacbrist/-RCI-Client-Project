@@ -13,7 +13,7 @@ passport.deserializeUser((id, done) => {
     .then((result) => {
       // Handle Errors
       const user = result && result.rows && result.rows[0];
-
+ 
       if (user) {
         // user found
         delete user.password; // remove password so it doesn't get sent

@@ -11,3 +11,4 @@ const occupationsReducer = (state = [], action) => {
 
 
 export default occupationsReducer;
+ 

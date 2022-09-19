@@ -7,7 +7,7 @@ const availabilityReducer = (state = [], action) => {
       default:
         return state;
     }
-  };
+  }; 
   
   
   export default availabilityReducer;

@@ -6,7 +6,7 @@ import { Button } from '@material-ui/core';
 import Swal from 'sweetalert2';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import { Account } from '@mui/material';
-
+ 
 export default function DeleteGroupBtn() {
     const history = useHistory();
     const dispatch = useDispatch();

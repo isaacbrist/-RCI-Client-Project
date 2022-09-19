@@ -3,7 +3,7 @@ import '../ProviderProfile/ProviderProfile.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom';
-
+ 
 import LogOutButton from '../LogOutButton/LogOutButton';
 import { Box, Card, Button, Grid, Paper, TextField, Typography, Tooltip, Input } from '@mui/material';
 

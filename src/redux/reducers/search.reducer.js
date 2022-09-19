@@ -6,6 +6,6 @@ const searchReducer = (state = [], action) => {
     default:
       return state;
   }
-};
+}; 
 
 export default searchReducer;

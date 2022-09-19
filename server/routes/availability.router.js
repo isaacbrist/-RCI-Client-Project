@@ -12,7 +12,7 @@ router.post('/', rejectUnauthenticated, (req, res) => {
   console.log("availability content is:", req.body);
   
   let queryText = `INSERT INTO "provider" (
-  "availability"
+  "availability" 
   )
   VALUES ($1, $2)`;
   pool.query(queryText, 

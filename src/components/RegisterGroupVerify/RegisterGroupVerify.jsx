@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 
 export default function RegisterGroupVerify() {
-
+ 
   const user = useSelector((store) => store.user);
   const history = useHistory();
   const dispatch = useDispatch();

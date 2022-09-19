@@ -7,7 +7,7 @@ import { Box, Grid, Typography } from '@material-ui/core';
 // or even care what the redux state is
 
 export default function HomePage() {
-    return (
+    return ( 
         <Grid
             container
             style={{

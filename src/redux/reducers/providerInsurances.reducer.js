@@ -8,6 +8,6 @@ const providerInsurancesReducer = (state = [], action) => {
       return state;
   }
 };
-
+ 
 
 export default providerInsurancesReducer;

@@ -12,7 +12,7 @@ router.get('/:id', (req, res) => {
   JOIN "user" ON "provider"."user_id" = "user"."id" WHERE "user_id" = $1;`;
   pool
     .query(queryText, [userId])
-    .then((result) => {
+    .then((result) => { 
       res.send(result.rows);
     })
     .catch((err) => {

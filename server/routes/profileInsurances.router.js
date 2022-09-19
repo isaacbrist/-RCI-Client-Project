@@ -16,7 +16,7 @@ const router = express.Router();
 //     });
 // });
 
-//GET 1 PROFILE's list of INSURANCES
+//GET 1 PROFILE's list of INSURANCES 
 router.get('/:id', (req, res) => {
   const userId = req.params.id;
   console.log('here is the userId in the profileInsurance router', userId);

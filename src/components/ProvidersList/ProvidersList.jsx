@@ -13,7 +13,7 @@ import GroupSearchBar from '../GroupSearchBar/GroupSearchBar';
 import SpecializationsDropdownMenu from '../SpecializationsDropDownMenu/SpecializationsDropdownMenu';
 import OccupationsDropdownMenu from '../OccupationsDropDownMenu/OccupationsDropdownMenu';
 import InsurancesDropdownMenu from '../InsurancesDropDownMenu/InsurancesDropdownMenu';
-
+ 
 export default function ProvidersList() {
     const dispatch = useDispatch();
     const providersReducer = useSelector((store) => store.providers);

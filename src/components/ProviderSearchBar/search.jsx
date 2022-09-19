@@ -10,7 +10,7 @@ import DirectionsIcon from '@mui/icons-material/Directions';
 export default function CustomizedInputBase() {
     return (
         <Paper
-            component="form"
+            component="form" 
             sx={{
                 p: '2px 4px',
                 display: 'flex',

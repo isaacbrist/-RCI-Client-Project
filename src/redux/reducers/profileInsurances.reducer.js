@@ -8,3 +8,4 @@ const profileInsurances = (state = [], action) => {
 };
 
 export default profileInsurances;
+ 

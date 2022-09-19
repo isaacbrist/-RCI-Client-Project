@@ -16,7 +16,7 @@ function ContactPage() {
             .catch(err => 
                 console.log('EMAIL IS NOT WORKING>>>>>>>>>>>>', err)
             )
-            
+             
     };
 
     return (

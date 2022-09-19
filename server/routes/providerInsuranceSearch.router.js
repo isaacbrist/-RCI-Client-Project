@@ -11,7 +11,7 @@ router.get('/:insurance', (req, res) => {
 
     console.log(
         'here is the insurance in the providerSearch router',
-        insurance
+        insurance 
     );
     const queryText = `SELECT provider.id, provider."name", provider.bio, provider.picture, provider.phone, provider.email FROM "provider" 
   JOIN "provider_insurance_plan" 

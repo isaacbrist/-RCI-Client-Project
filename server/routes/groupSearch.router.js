@@ -16,7 +16,7 @@ router.get('/:className/:searchItem', (req, res) => {
   console.log(
     'here is the searchItem in the groupSearch router',
     searchItem
-  );
+  ); 
   console.log('here is the column in the groupSearch router', column);
   const queryText = `SELECT * FROM "group" WHERE ${column} ILIKE '%${searchItem}%' ORDER BY "group"."name" ASC;`;
   pool

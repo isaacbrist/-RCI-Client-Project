@@ -8,6 +8,6 @@ export default function ProfileOccupations() {
             {profileOccupations.map((occupation, i) => {
                 return <li key={i}>{occupation.occupation}</li>;
             })}
-        </>
+        </> 
     );
 }

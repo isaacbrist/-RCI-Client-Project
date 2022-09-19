@@ -6,7 +6,7 @@ import { useHistory } from 'react-router-dom';
 
 function ProviderSpecializations() {
   const specializations = useSelector((store) => store.providerSpecializations);
-
+ 
 
   return (
     <div>

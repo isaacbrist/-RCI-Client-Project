@@ -8,3 +8,4 @@ const ProfileSpecializations = (state = [], action) => {
 };
 
 export default ProfileSpecializations;
+ 

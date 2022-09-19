@@ -15,7 +15,7 @@ router.get('/:id', (req, res) => {
     .query(queryText, [userId])
     .then((result) => {
       res.send(result.rows);
-    })
+    }) 
     .catch((err) => {
       console.log('ERROR: Get the provider id', err);
       res.sendStatus(500);

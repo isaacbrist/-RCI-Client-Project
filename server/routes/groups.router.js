@@ -20,7 +20,7 @@ router.post('/', rejectUnauthenticated, (req, res) => {
   VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
   RETURNING "id";`;
   pool
-    .query(queryText, [
+    .query(queryText, [ 
       newGroup.user_id,
       newGroup.name,
       newGroup.bio,
