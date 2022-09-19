@@ -8,7 +8,7 @@ import React from 'react';
 function AdminAnalytics() {
   return (
     <div className="container">
-      <p>Info Page</p>
+      <p>Info Page</p> 
     </div>
   );
 }

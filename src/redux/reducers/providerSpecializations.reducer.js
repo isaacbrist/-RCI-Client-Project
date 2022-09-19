@@ -11,3 +11,4 @@ const providerSpecializationsReducer = (state = [], action) => {
 
 
 export default providerSpecializationsReducer;
+ 

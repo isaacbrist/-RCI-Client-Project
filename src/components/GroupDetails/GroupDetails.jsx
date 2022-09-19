@@ -11,7 +11,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import DeleteGroupBtn from '../DeleteBtn/DeleteGroupBtn';
 import emailjs from '@emailjs/browser';
-
+ 
 function GroupDetail() {
     //details pertaining to the id of the provider that was clicked on.
     const details = useSelector((store) => store.details);

@@ -22,7 +22,7 @@ export default function GroupsListItem({ group }) {
         history.push('/group-details');
     };
  
-    return (
+    return ( 
         <>
             <Box
                 style={{

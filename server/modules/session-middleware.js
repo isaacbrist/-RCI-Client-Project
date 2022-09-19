@@ -13,7 +13,7 @@ const warnings = require('../constants/warnings');
   `application` ->  `storage` -> `cookies` section of the chrome debugger
 */
 
-const serverSessionSecret = () => {
+const serverSessionSecret = () => { 
   if (
     !process.env.SERVER_SESSION_SECRET ||
     process.env.SERVER_SESSION_SECRET.length < 8 ||
@@ -32,5 +32,5 @@ module.exports = cookieSession({
   resave: 'false',
   saveUninitialized: false,
   maxAge: 1000 * 60 * 60 * 24 * 7, // Set to 7 days - 1000ms * 60 seconds * 60 minutes * 24 hours * 7 days
-  secure: false,
+  secure: false, 
 });

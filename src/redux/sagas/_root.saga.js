@@ -18,7 +18,7 @@ export default function* rootSaga() {
   yield all([
     loginSaga(), // login saga is now registered
     registrationSaga(),
-    userSaga(),
+    userSaga(), 
     providersSaga(),
     profileSaga(),
     groupsSaga(),

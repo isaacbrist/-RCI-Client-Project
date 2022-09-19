@@ -7,7 +7,7 @@ const providerServicesReducer = (state = [], action) => {
     default:
       return state;
   }
-};
+}; 
 
 
 export default providerServicesReducer;

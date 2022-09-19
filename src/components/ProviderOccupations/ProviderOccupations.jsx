@@ -9,7 +9,7 @@ export default function ProviderOccupations() {
     console.log(`Occupations:`, providerOccupations);
 
     return (
-        <div>
+        <div> 
             {providerOccupations.map((job) => {
                 return <li key={job.id}>{job.occupation}</li>;
             })}

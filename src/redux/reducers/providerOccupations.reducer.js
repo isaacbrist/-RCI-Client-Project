@@ -9,5 +9,5 @@ const providerOccupationsReducer = (state = [], action) => {
   }
 };
 
-
+ 
 export default providerOccupationsReducer;

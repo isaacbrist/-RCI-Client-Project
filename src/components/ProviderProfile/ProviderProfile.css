@@ -5,7 +5,7 @@ div.row {
 
 div.column {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .info {

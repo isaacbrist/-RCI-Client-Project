@@ -8,3 +8,4 @@ const profileOccupations = (state = [], action) => {
 };
 
 export default profileOccupations;
+ 

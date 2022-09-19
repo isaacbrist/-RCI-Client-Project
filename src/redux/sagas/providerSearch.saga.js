@@ -18,7 +18,7 @@ function* fetchProviderName(action) {
     console.log('error in fetchProviderName', error);
   }
 }
-
+ 
 //Filter by specializations
 function* filterProviderSpecializations(action) {
   try {

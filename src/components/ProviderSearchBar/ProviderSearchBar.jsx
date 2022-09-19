@@ -10,7 +10,7 @@ import Divider from '@mui/material/Divider';
 import MenuIcon from '@mui/icons-material/Menu';
 import DirectionsIcon from '@mui/icons-material/Directions';
 import Swal from 'sweetalert2';
-
+ 
 export default function ProviderSearchBar() {
     const dispatch = useDispatch();
     //state for the text box for the provider

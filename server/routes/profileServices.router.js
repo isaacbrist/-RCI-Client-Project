@@ -17,7 +17,7 @@ router.get('/:id', (req, res) => {
         })
         .catch((err) => {
             console.log('ERROR: Get the services', err);
-            res.sendStatus(500);
+            res.sendStatus(500); 
         });
 });
 

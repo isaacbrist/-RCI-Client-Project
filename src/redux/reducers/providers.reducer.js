@@ -18,7 +18,7 @@ const providerNameReducer = (state = '', action) => {
 		default:
 			return state;
 	}
-};
+}; 
 
 const providerBioReducer = (state = '', action) => {
 	switch (action.type) {

@@ -8,7 +8,7 @@ export default function AboutPage() {
                 <Typography
                     variant="h4"
                     sx={{
-                        textAlign: 'left',
+                        textAlign: 'left', 
                         fontWeight: 'bold',
                         color: 'var(--true-orange)',
                     }} 

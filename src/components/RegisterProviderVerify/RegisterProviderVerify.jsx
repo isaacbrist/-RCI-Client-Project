@@ -12,7 +12,7 @@ export default function RegisterProviderVerify() {
     const [providerPicture, setProviderPicture] = useState('');
     const providerName = useSelector(
         (store) => store.providers.providerNameReducer
-    );
+    ); 
     const providerBio = useSelector(
         (store) => store.providers.providerBioReducer
     );

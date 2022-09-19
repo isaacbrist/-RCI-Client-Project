@@ -10,7 +10,7 @@ const {
 // //filter by occupations
 router.get('/:occupation', (req, res) => {
   const occupation = req.params.occupation;
-
+ 
 
   console.log('here is the occupation in the providerSearch router', occupation);
   const queryText = `SELECT provider.id, occupations.occupation, provider."name", provider.bio, provider.picture, provider.phone, provider.email FROM "provider" 

@@ -16,7 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import { Container } from '@mui/material';
 import Swal from 'sweetalert2';
 // import EmailModal from '../EmailModal/EmailModal';
-
+ 
 export default function ProvidersDetail() {
     const details = useSelector((store) => store.details);
     const user = useSelector((store) => store.user);

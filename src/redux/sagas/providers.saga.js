@@ -14,7 +14,7 @@ function* fetchProviders(action) {
         console.log('Get all providers error', error);
     }
 }
-
+ 
 //get all details of one provider
 function* fetchProviderDetails(action) {
     console.log('action.payload', action.payload);

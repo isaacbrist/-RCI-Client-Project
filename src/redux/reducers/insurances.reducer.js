@@ -11,3 +11,4 @@ const insurancesReducer = (state = [], action) => {
 
 
 export default insurancesReducer;
+ 

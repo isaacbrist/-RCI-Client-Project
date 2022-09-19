@@ -6,7 +6,7 @@ import { Grid, Box, Typography } from '@mui/material';
 export default function ProvidersListItem({ provider }) {
     const history = useHistory();
     const dispatch = useDispatch();
-
+ 
     const handleClick = (id) => {
         console.log('You clicked this Provider!', id);
         dispatch({ type: 'FETCH_PROVIDER_DETAILS', payload: id });

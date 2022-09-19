@@ -6,7 +6,7 @@ export default function ProviderInsurances() {
 
     console.log(`What is insurances.insurance`, providerInsurances.insurance);
 
-    return (
+    return ( 
         <div>
             {providerInsurances.map((insurance, id) => {
                 return <li key={id}>{insurance.insurance}</li>;

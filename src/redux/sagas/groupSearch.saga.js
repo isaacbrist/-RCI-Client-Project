@@ -19,7 +19,7 @@ function* fetchGroupName(action) {
     console.log('error in fetchGroupName', error);
   }
 }
-
+ 
 function* groupSearchSaga() {
   yield takeEvery('SEARCH_GROUP_NAME', fetchGroupName);
 

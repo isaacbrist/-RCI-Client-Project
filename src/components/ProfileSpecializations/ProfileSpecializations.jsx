@@ -12,5 +12,5 @@ export default function ProfileSpecializations() {
                 return <li key={i}>{specialization.specialization}</li>;
             })}
         </>
-    );
+    ); 
 }

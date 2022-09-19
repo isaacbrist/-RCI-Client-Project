@@ -12,7 +12,7 @@ import { useSelector } from 'react-redux';
 // so your server-side route must implement real security
 // by checking req.isAuthenticated for authentication
 // and by checking req.user for authorization
-
+ 
 export default function ProtectedRoute({ component, children, ...props }) {
     const user = useSelector((store) => store.user);
 

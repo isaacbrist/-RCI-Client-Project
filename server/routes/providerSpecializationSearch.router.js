@@ -8,7 +8,7 @@ const {
 //filter by specialization
 router.get('/:specialization', (req, res) => {
     const specialization = req.params.specialization;
-
+ 
     console.log(
         'here is the specialization in the providerSearch router',
         specialization

@@ -7,7 +7,7 @@ import React from 'react';
 
 //AVERY: DON'T TOUCH FILE
 
-function AdminDashboard() {
+function AdminDashboard() { 
     return (
         <div className="container">
             <p>Info Page</p>

@@ -16,7 +16,7 @@ const loginMessage = (state = '', action) => {
       return state;
   }
 };
-
+ 
 // registrationMessage holds the string that will display
 // on the registration screen if there's an error
 const registrationMessage = (state = '', action) => {
